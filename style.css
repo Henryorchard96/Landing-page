@@ -17,7 +17,13 @@ img{
 
 ul{
     list-style-type: none;
+    color: white;
     
+}
+
+.container a{
+    text-decoration: none;
+    color: white;
 }
 
 .logo{
@@ -25,11 +31,27 @@ ul{
     font-weight: bold;
 }
 
+img{
+    height: 200px;
+    width: auto;
+}
+
+nav{
+    background-color: rgb(14, 13, 13);
+}
+
+.header button{
+    width: 100px;
+    height: 30px;
+    margin-top: 20px;
+}
+
 .container{
     max-width: 1100px;
     margin: 0 auto;
     padding: 0 30px;
 }
+
 
 nav .container{
     display: flex;
@@ -43,6 +65,23 @@ nav .container{
     display: flex;
     gap: 12px;
 }
+
+.header .container{
+    display: flex;
+    margin-top: 20px;
+    flex-direction: column;
+}
+
+.container .header{
+    max-width: 200px;
+}
+
+.container .text{
+    max-width: 300px;
+    justify-content: center;
+}
+
+
 
 
 
