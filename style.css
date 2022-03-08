@@ -94,6 +94,35 @@ nav .container{
     height: auto;
 }
 
+.quote{
+    background-color: #e5e7eb;
+
+}
+
+.quote .container{
+    display: flex;
+    height: 200px;
+    color: black;
+    max-width: 400px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    
+}
+
+.box .container{
+    display: flex;
+    background-color: #3882F6;
+    height: 100px;
+    width: 700px;
+    margin: 60px auto;
+    border-radius: 10px;
+
+}
+
+
 
 
 
