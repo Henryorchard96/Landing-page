@@ -42,7 +42,7 @@ nav{
     background-color: rgb(14, 13, 13);
 }
 
-.header button{
+button{
     width: 100px;
     height: 30px;
     margin-top: 20px;
@@ -118,9 +118,22 @@ nav .container{
     height: 100px;
     width: 700px;
     margin: 60px auto;
+    padding: 20px;
     border-radius: 10px;
-
+    flex-direction: column;
+    flex-wrap: wrap;
+    
 }
+
+.box button{
+    align-self: flex-end;
+}
+
+
+
+
+
+
 
 
 
